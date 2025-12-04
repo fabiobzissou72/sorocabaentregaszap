@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
         className="absolute inset-0 w-full h-[120%] -z-20 pointer-events-none"
         style={{ 
           transform: `translateY(${scrollY * 0.5}px)`,
-          backgroundImage: 'url("/images/imagemfundo.jpeg")',
+          backgroundImage: 'url("/images/imagemfundo.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
