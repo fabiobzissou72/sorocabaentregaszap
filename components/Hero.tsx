@@ -34,13 +34,13 @@ const Hero: React.FC = () => {
     <section id="hero" className="relative overflow-hidden pt-28 pb-20 lg:pt-40 lg:pb-28 transition-colors duration-300 min-h-[85vh] flex items-center">
       
       {/* Parallax Background Image */}
-      <div 
+      <div
         className="absolute inset-0 w-full h-[120%] -z-20 pointer-events-none"
-        style={{ 
+        style={{
           transform: `translateY(${scrollY * 0.5}px)`,
           backgroundImage: 'url("/images/imagemfundo.jpg")',
           backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundPosition: 'center top'
         }}
       ></div>
 
