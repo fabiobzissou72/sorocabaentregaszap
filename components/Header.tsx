@@ -37,18 +37,12 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleTheme, onNavigate, cu
           
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center cursor-pointer group" onClick={handleLogoClick}>
-            <img 
-              src="/images/logomarca.jpeg" 
-              alt="Entregas ZAP Logo" 
-              className="h-10 w-auto mr-3 rounded-md transition-transform duration-300 group-hover:scale-105"
-              onError={(e) => {
-                // Fallback caso a imagem não carregue, mostra um texto ou ícone
-                e.currentTarget.style.display = 'none';
-                e.currentTarget.nextElementSibling?.classList.remove('hidden');
-              }}
+            <img
+              src="/images/logo.jpg"
+              alt="Entregas ZAP Logo"
+              className="h-14 w-auto mr-3 rounded-md transition-transform duration-300 group-hover:scale-105"
             />
-            {/* Fallback text if image fails */}
-            <span className="font-bold text-xl tracking-tight text-slate-900 dark:text-white hidden">
+            <span className="font-bold text-2xl tracking-tight text-slate-900 dark:text-white">
               Entregas<span className="text-brand-600 dark:text-brand-500">ZAP</span>
             </span>
           </div>

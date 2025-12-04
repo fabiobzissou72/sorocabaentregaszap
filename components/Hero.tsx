@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
           transform: `translateY(${scrollY * 0.5}px)`,
           backgroundImage: 'url("/images/imagemfundo.jpg")',
           backgroundSize: 'cover',
-          backgroundPosition: 'center top'
+          backgroundPosition: '30% top'
         }}
       ></div>
 
